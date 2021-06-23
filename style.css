@@ -1,3 +1,15 @@
+body{
+	font-family: 'Lato', 'sans-serif';
+	font-weight: lighter;
+	width:80%;
+	color: #181818;
+	text-align:center;
+	margin: 50px auto;
+}
+.mainDetails{
+border-bottom: 2px solid #cf8a05;
+}
+
 .clear {
 	clear: both;
 }
@@ -5,23 +17,76 @@
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
+	margin-right: 50px;
 }
 
 #name {
+	text-align:left;
 	float: left;
+}
+#name h1{
+	margin-bottom : 0px 
+}
+#name h2{
+	font-weight: normal;
+	margin-top: 5px;
 }
 
 #contactDetails {
+	margin-left: 0 auto;
+	text-align: left;
 	float: right;
 }
 
-.sectionTitle {
+#contactDetails a{
+	color: #181818;
+	text-decoration: none;
+}
+#contactDetails li{
+	margin-right: 0;
+	display:block;
+}
+
+.sectionTitle h1 {
+	font-family: 'Rokkitt',' sans-serif';
+	font-size:24px;
+	font-style: italic;
+	color: #cf8a05;
 	float: left;
 	width: 25%;
+	font-weight: lighter;
 }
 
 .sectionContent {
+	text-align: left;
 	float: right;
 	width: 72.5%;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+li{
+	display: inline-block;
+	margin-right: 20%;
+
+}
+  section:not([class = "semlinha"]){
+	border-bottom: 1px solid #dedede
+}
+#headshot img{
+	border-radius: 50%;
+}
+.subDetails{
+	font-size: 13px;
+	margin : 0;
+	font-style : italic;
+
+}
+h2{
+	margin-bottom: 3px;
+}
+article h2,.subDetails{
+	color : #444444;
+	font-weight: normal;
 }
